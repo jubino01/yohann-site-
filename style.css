@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+h1 {
+    font-size: 100px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-size: 70px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h5 {
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span {
+    color: #998154;
+}
+
+.niv {
+    width: 20%;
+    justify-content: space-around;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 8vh;
+}
+
+section {
+    height: 95vh;
+    width: 100%;
+    background-color: #101010;
+}
+
+.contenair {
+    display: flex;
+    justify-content: space-around;
+}
+
+h5 {
+    font-size: 1.5em;
+    transform: translate(330px, 70px);
+}
+
+.c1 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c2 {
+    display: flex;
+}
+
+.btn {
+    background-color: black;
+    border: 2px solid #998154;
+    width: 35%;
+}
+
+
+/* Fin de la Section*/
+
+
+/*Debut de A propos*/
+
+.Apropos {
+    background-color: #101010;
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border: 1.5px solid grey;
+    transform: translate(330px, 20px);
+    align-items: center;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+
+.b1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.b2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img {
+    border: solid 1.5px #998154;
+}
+
+
+/*Fin de A propos */
+
+
+/*Debut de Services*/
+
+.services {
+    display: flex;
+}
+
+.s2 {
+    background-color: #101010;
+    height: 35vh;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    border: 1.5px solid grey;
+    transform: translate(460px, 80px);
+    align-items: center;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+
+.s1 {
+    background-color: #101010;
+    height: 35vh;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    border: 1.5px solid grey;
+    transform: translate(330px, 80px);
+    align-items: center;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+
+.s3 {
+    background-color: #101010;
+    height: 35vh;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    border: 1.5px solid grey;
+    transform: translate(330px, 120px);
+    align-items: center;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+
+.experiences {
+    display: flex;
+}
+
+.xpe1 {
+    background-color: #101010;
+    height: 35vh;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    border: 1.5px solid grey;
+    transform: translate(460px, 80px);
+    align-items: center;
+    justify-content: space-around;
+    color: whitesmoke;
+}
